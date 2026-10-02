@@ -1,25 +1,27 @@
 .footer {
-  background: var(--color-bg-dark);
-  color: #FFFFFF;
+  background: #111111;
+  color: #ffffff;
   padding: 100px 0 40px;
 }
 
-.top { margin-bottom: 80px; }
-.title {
+.footer-top { margin-bottom: 80px; }
+
+.footer-title {
   font-size: 48px;
   font-weight: 900;
   line-height: 1.1;
-  letter-spacing: -0.02em;
+  letter-spacing: -1px;
   margin-bottom: 12px;
 }
-.accent {
-  color: var(--color-accent-purple);
+
+.footer-accent {
   font-size: 48px;
   font-weight: 900;
-  letter-spacing: -0.02em;
+  color: #5b4ee8;
+  letter-spacing: -1px;
 }
 
-.middle {
+.footer-middle {
   display: grid;
   grid-template-columns: 1.5fr 1fr 1fr 1fr;
   gap: 60px;
@@ -28,33 +30,36 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.brand {
+.footer-brand {
   font-size: 20px;
   font-weight: 800;
   margin-bottom: 20px;
 }
-.address, .email {
+
+.footer-line {
   font-size: 14px;
-  color: #AAAAAA;
+  color: #aaaaaa;
   margin-bottom: 12px;
   line-height: 1.6;
 }
 
-.colTitle {
+.footer-col-title {
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 20px;
 }
-.colLink {
+
+.footer-link {
   display: block;
   font-size: 14px;
-  color: #AAAAAA;
+  color: #aaaaaa;
   margin-bottom: 12px;
-  transition: color var(--transition);
+  transition: color 0.2s;
 }
-.colLink:hover { color: #FFFFFF; }
 
-.bottom {
+.footer-link:hover { color: #ffffff; }
+
+.footer-bottom {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -63,11 +68,17 @@
   font-size: 13px;
   color: #777777;
 }
-.metaLinks { display: flex; gap: 24px; flex-wrap: wrap; }
-.metaLinks a:hover { color: #FFFFFF; }
+
+.footer-meta {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.footer-meta a:hover { color: #ffffff; }
 
 @media (max-width: 900px) {
-  .title, .accent { font-size: 28px; }
-  .middle { grid-template-columns: 1fr 1fr; gap: 32px; }
-  .bottom { flex-direction: column; }
+  .footer-title, .footer-accent { font-size: 28px; }
+  .footer-middle { grid-template-columns: 1fr 1fr; gap: 32px; }
+  .footer-bottom { flex-direction: column; }
 }

@@ -1,22 +1,23 @@
-.title {
+.faq-title {
   font-size: 40px;
   font-weight: 900;
   text-align: center;
-  letter-spacing: -0.02em;
-  margin-bottom: 60px;
+  letter-spacing: -1px;
   margin-top: 8px;
+  margin-bottom: 60px;
 }
 
-.grid {
+.faq-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 60px;
 }
 
-.item {
+.faq-item {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
-.header {
+
+.faq-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,26 +25,27 @@
   padding: 24px 0;
   font-size: 17px;
   font-weight: 600;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: left;
   gap: 20px;
 }
-.icon {
+
+.faq-icon {
   font-size: 20px;
-  color: #FFFFFF;
-  transition: transform var(--transition);
+  transition: transform 0.2s;
   flex-shrink: 0;
 }
-.icon--open { transform: rotate(180deg); }
 
-.body {
+.faq-icon.open { transform: rotate(180deg); }
+
+.faq-body {
   padding-bottom: 24px;
   font-size: 15px;
   line-height: 1.6;
-  color: #AAAAAA;
+  color: #aaaaaa;
 }
 
 @media (max-width: 900px) {
-  .grid { grid-template-columns: 1fr; gap: 0; }
-  .title { font-size: 28px; margin-bottom: 32px; }
+  .faq-grid { grid-template-columns: 1fr; gap: 0; }
+  .faq-title { font-size: 28px; margin-bottom: 32px; }
 }
