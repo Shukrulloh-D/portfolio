@@ -1,16 +1,32 @@
-# React + Vite
+# Portfolio Creator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Одностраничный сайт-портфолио продуктового дизайнера. Лендинг с блоками Hero, Trusted by, Services, Projects, Latest Blogs, That's me!, Testimonials, FAQ и футером. Навигация по якорным ссылкам, адаптивная вёрстка под планшет и мобильные устройства.
 
-Currently, two official plugins are available:
+![Превью](./preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📋 О проекте
 
-## React Compiler
+Учебное задание по фронтенд-разработке. Задача — сверстать макет из Figma: <a href="https://www.figma.com/design/DQ6F2KLrUiA3WjWL5OZ9FO/Portfolio-Creator--Copy-" target="_blank">Portfolio Creator</a>.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Цель проекта:** отработать навыки вёрстки и работы с React — сборка компонентов, работа с состоянием (аккордеон, слайдеры, бургер-меню), адаптивная сетка, hover-эффекты и плавный скролл по якорям.
 
-## Expanding the ESLint configuration
+## 🛠 Стек технологий
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React 18** — библиотека для построения интерфейсов
+- **Vite** — сборщик и dev-сервер (быстрый запуск, HMR)
+- **CSS** — обычные CSS-файлы рядом с компонентами, без препроцессоров
+- **Google Fonts** — шрифт Inter
+
+## 🚀 Как запустить
+
+Понадобится Node.js версии 18 или выше.
+
+```bash
+# 1. Установить зависимости
+npm install
+
+# 2. Запустить dev-сервер
+npm run dev
+
+# 3. Открыть в браузере
+# http://localhost:5173
