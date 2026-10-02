@@ -17,8 +17,7 @@ function Resume() {
     <section className="section section-soft">
       <div className="container">
         <div className="resume-grid">
-          
-          {/* Образование */}
+           
           <div>
             <h3 className="resume-title">📚 Education</h3>
             {education.map((item) => (
@@ -33,7 +32,6 @@ function Resume() {
             ))}
           </div>
 
-          {/* Опыт работы */}
           <div>
             <h3 className="resume-title">💼 Work Experience</h3>
             {experience.map((item) => (

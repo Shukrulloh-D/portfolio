@@ -8,7 +8,7 @@ function Blogs() {
     { date: 'April 16, 2021', readTime: '7 mins', title: 'Logo design trends to avoid in 2021' },
     { date: 'April 16, 2021', readTime: '7 mins', title: '22 best UI design tools' },
   ];
-
+ 
   return (
     <section className="section section-dark" id="blogs">
       <div className="container">

@@ -41,7 +41,7 @@
   border-radius: 12px;
 }
 .colorNew {
-  color: #ff6600d9;
+  color: hsla(24, 100%, 50%, 0.851);
 }
 /* кнопки */
 .btn {

@@ -24,9 +24,8 @@ function Hero() {
               </a>
             </div>
           </div>
-
+ 
           <div className="hero-right">
-            {/* 🖼️ КАРТИНКА — замени ссылку на свою */}
             <img
               src="/images/hero.png"
               alt="Jake"

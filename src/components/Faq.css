@@ -46,6 +46,7 @@
 }
 
 @media (max-width: 900px) {
-  .faq-grid { grid-template-columns: 1fr; gap: 0; }
+  .faq-grid {
+     grid-template-columns: 1fr; gap: 0; }
   .faq-title { font-size: 28px; margin-bottom: 32px; }
 }

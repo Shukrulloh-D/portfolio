@@ -16,7 +16,7 @@ function Header() {
           <a href="#services">Services</a>
           <a href="#projects">Projects</a>
           <a href="#blogs">Blog</a>
-        </nav>
+        </nav> 
 
         <a href="#footer" className="header-cta">
           Book a call <span className="arrow">→</span>

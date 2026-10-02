@@ -26,4 +26,5 @@
 .arrow {
   transition: transform var(--transition);
 }
-.btn--ghost:hover .arrow { transform: translateX(4px); }
+.btn--ghost:hover .arrow {
+   transform: translateX(4px); }

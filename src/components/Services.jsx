@@ -22,7 +22,7 @@ function Services() {
               <li>Front-end Development</li>
             </ul>
           </div>
-
+ 
           <div className="services-col">
             <img src="/images/service-2.svg" alt="" />
 

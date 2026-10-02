@@ -24,7 +24,7 @@ function Projects() {
       <div className="container">
         <div className="projects-head">
           <div>
-            <p className="eyebrow eyebrow-purple">Projects</p>
+            <p className="eyebrow-purple">Projects</p>
             <h2 className="projects-title">
               I bring results.<br />
               My clients are proof.
@@ -43,7 +43,7 @@ function Projects() {
                 <span className="project-link">View Project →</span>
               </div>
             </a>
-          ))}
+          ))} 
         </div>
       </div>
     </section>

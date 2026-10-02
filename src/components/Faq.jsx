@@ -18,7 +18,7 @@ function Faq() {
   const toggle = (index) => {
     setOpenIndex(openIndex === index ? -1 : index);
   };
-
+ 
   return (
     <section className="section section-dark">
       <div className="container">

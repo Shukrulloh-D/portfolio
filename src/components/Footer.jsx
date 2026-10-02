@@ -15,7 +15,7 @@ function Footer() {
             <p className="footer-line">4351 Delaware Avenue, San Francisco, USA</p>
             <p className="footer-line">✉ hi@thefolio.com</p>
           </div>
-
+ 
           <div>
             <div className="footer-col-title">About</div>
             <a href="#" className="footer-link">About</a>

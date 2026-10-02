@@ -22,7 +22,7 @@ function Testimonials() {
 
   const next = () => setIndex(index === items.length - 1 ? 0 : index + 1);
   const prev = () => setIndex(index === 0 ? items.length - 1 : index - 1);
-
+ 
   return (
     <section className="section">
       <div className="container">

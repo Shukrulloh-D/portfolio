@@ -24,7 +24,9 @@
   font-weight: 600;
 }
 
-.projects-view-all:hover { background: #2a2a2a; }
+.projects-view-all:hover {
+   background: #2a2a2a;
+}
 
 .projects-grid {
   display: grid;
