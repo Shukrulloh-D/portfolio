@@ -3,10 +3,10 @@ import './About.css';
 function About() {
   const photos = [
     // 🖼️ КАРТИНКИ — замени на свои
-    'https://images.unsplash.com/photo-1618477247222-acbdb0e159b3?w=400',
-    'https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600',
-    'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600',
-    'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600',
+    '/images/about-1.png',
+    '/images/about-2.png',
+    '/images/about-3.png',
+    '/images/about-4.png',
   ];
 
   return (

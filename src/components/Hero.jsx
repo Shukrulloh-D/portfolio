@@ -37,10 +37,11 @@ function Hero() {
         <div className="hero-trusted">
           <p className="hero-trusted-label">Trusted by</p>
           <div className="hero-logos">
-            <span>logoipsum</span>
-            <span>logoipsum</span>
-            <span>LOGOIPSUM</span>
-            <span>logoipsum</span>
+<img src="/images/logoipsum-1.svg " alt="Logo"></img>
+<img src="/images/logoipsum-2.svg " alt="Logo"></img>
+<img src="/images/logoipsum-3.svg " alt="Logo"></img>
+<img src="/images/logoipsum-4.svg " alt="Logo"></img>
+
           </div>
         </div>
       </div>

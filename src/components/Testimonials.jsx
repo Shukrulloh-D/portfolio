@@ -8,14 +8,14 @@ function Testimonials() {
       author: 'John Franklin',
       role: 'Founder, Double Bunch',
       // 🖼️ КАРТИНКА
-      photo: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500',
+      photo: '/images/testimonials.png',
     },
     {
       quote: 'Working with Jake was a game-changer. He took our vague ideas and turned them into a design system we still use today.',
       author: 'Maria Lopez',
       role: 'Product Lead, Nova',
       // 🖼️ КАРТИНКА
-      photo: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500',
+      photo: '/images/hero.png',
     },
   ];
 

@@ -6,19 +6,19 @@ function Projects() {
       tag: 'Branding',
       title: 'Soulful Rebrand',
       // 🖼️ КАРТИНКА
-      image: 'https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=500',
+      image: '/images/project-1.png',
     },
     {
       tag: 'Product Design',
       title: 'Datadash Product design',
       // 🖼️ КАРТИНКА
-      image: 'https://images.unsplash.com/photo-1618761714954-0b8cd0026356?w=500',
+      image: '/images/project-2.png',
     },
     {
       tag: 'Web Design',
       title: 'Maize Website Design',
       // 🖼️ КАРТИНКА
-      image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=500',
+      image: '/images/project-3.png',
     },
   ];
 

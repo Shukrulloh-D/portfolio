@@ -10,7 +10,8 @@
   transition: all var(--transition);
   white-space: nowrap;
 }
-.btn--primary { background: var(--color-text); color: #FFFFFF; }
+.btn--primary {
+   background: var(--color-text); color: #FFFFFF; }
 .btn--primary:hover { background: #2A2A2A; transform: translateY(-1px); }
 .btn--ghost { background: transparent; color: var(--color-text); padding: 16px 0; }
 .btn--ghost:hover { color: var(--color-accent-orange); }
