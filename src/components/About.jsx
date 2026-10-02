@@ -2,7 +2,6 @@ import './About.css';
 
 function About() {
   const photos = [
-    // 🖼️ КАРТИНКИ — замени на свои
     '/images/about-1.png',
     '/images/about-2.png',
     '/images/about-3.png',

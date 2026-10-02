@@ -5,19 +5,16 @@ function Projects() {
     {
       tag: 'Branding',
       title: 'Soulful Rebrand',
-      // 🖼️ КАРТИНКА
       image: '/images/project-1.png',
     },
     {
       tag: 'Product Design',
       title: 'Datadash Product design',
-      // 🖼️ КАРТИНКА
       image: '/images/project-2.png',
     },
     {
       tag: 'Web Design',
       title: 'Maize Website Design',
-      // 🖼️ КАРТИНКА
       image: '/images/project-3.png',
     },
   ];

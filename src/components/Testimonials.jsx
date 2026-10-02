@@ -7,14 +7,12 @@ function Testimonials() {
       quote: "Jade helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design.",
       author: 'John Franklin',
       role: 'Founder, Double Bunch',
-      // 🖼️ КАРТИНКА
       photo: '/images/testimonials.png',
     },
     {
       quote: 'Working with Jake was a game-changer. He took our vague ideas and turned them into a design system we still use today.',
       author: 'Maria Lopez',
       role: 'Product Lead, Nova',
-      // 🖼️ КАРТИНКА
       photo: '/images/hero.png',
     },
   ];

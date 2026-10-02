@@ -4,7 +4,7 @@ function Services() {
   return (
     <section className="section section-soft" id="services">
       <div className="container">
-        <p className="eyebrow eyebrow-orange">Services</p>
+        <p className="eyebrow-orange">Services</p>
         <h2 className="section-title section-title-center">
           Design that solves problems,<br />one product at a time.
         </h2>
@@ -13,7 +13,9 @@ function Services() {
           <div className="services-col">
             <img src="/images/service-1.svg" alt="" />
             <h3>What I can do for you</h3>
-            <p>Faster, better products that your users love. Here's all the services I provide:</p>
+            <p>Faster, better products that your <br />
+            users love. Here's all the services <br />
+            I provide:</p>
             <ul>
               <li>Design Strategy</li>
               <li>Web and Mobile App Design</li>
@@ -25,7 +27,7 @@ function Services() {
             <img src="/images/service-2.svg" alt="" />
 
             <h3>Applications I'm fluent in</h3>
-            <p>Every designer needs the right tools to do the perfect job. Thankfully, I'm multilingual.</p>
+            <p>Every designer needs the right <br /> tools to do the perfect job. <br /> Thankfully, I'm multilingual.</p>
             <ul>
               <li>Sketch</li>
               <li>Webflow</li>
@@ -37,7 +39,7 @@ function Services() {
             <img src="/images/service-3.svg" alt="" />
 
             <h3>What you can expect</h3>
-            <p>I design products that are more than pretty. I make them shippable and usable.</p>
+            <p>I design products that are more <br /> than pretty. I make them shippable <br /> and usable.</p>
             <ul>
               <li>Clean and functional</li>
               <li>Device and user friendly</li>

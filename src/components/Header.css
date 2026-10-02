@@ -31,7 +31,7 @@
 }
 
 .header-nav a:hover {
-  color: #ff7051;
+  color: hsl(26, 100%, 50%);
 }
 
 .header-cta {

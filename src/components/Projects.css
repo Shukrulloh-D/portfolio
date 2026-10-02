@@ -5,7 +5,9 @@
   gap: 24px;
   margin-bottom: 60px;
 }
-
+.eyebrow-purple{
+  color: hsl(252, 97%, 50%);
+}
 .projects-title {
   font-size: 48px;
   font-weight: 900;
