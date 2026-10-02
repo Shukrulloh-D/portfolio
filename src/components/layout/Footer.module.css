@@ -1,0 +1,73 @@
+.footer {
+  background: var(--color-bg-dark);
+  color: #FFFFFF;
+  padding: 100px 0 40px;
+}
+
+.top { margin-bottom: 80px; }
+.title {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 12px;
+}
+.accent {
+  color: var(--color-accent-purple);
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+.middle {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  gap: 60px;
+  padding: 60px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.address, .email {
+  font-size: 14px;
+  color: #AAAAAA;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.colTitle {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.colLink {
+  display: block;
+  font-size: 14px;
+  color: #AAAAAA;
+  margin-bottom: 12px;
+  transition: color var(--transition);
+}
+.colLink:hover { color: #FFFFFF; }
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 32px;
+  font-size: 13px;
+  color: #777777;
+}
+.metaLinks { display: flex; gap: 24px; flex-wrap: wrap; }
+.metaLinks a:hover { color: #FFFFFF; }
+
+@media (max-width: 900px) {
+  .title, .accent { font-size: 28px; }
+  .middle { grid-template-columns: 1fr 1fr; gap: 32px; }
+  .bottom { flex-direction: column; }
+}
